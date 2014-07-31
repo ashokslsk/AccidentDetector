@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Supravas_beta</string>
+    <string name="Press_for_dash_board">DashBoard</string>
+    <string name="Quit_supravas">Quit</string>
+    <string name="Accelerometer_init">supravas_sense</string>
+    <string name="Initsense">Supravas-&gt;Sense</string>
+    <string name="driving_tips">Tips  goes here </string>
+    <string name="about_text_view">about</string>
+    <string name="tips_text_view">Tips</string>
+    <string name="cb_sampling_text">Sampling</string>
+	<string name="cb_sound_text">Sound</string>
+	<string name="sensitivity">Sensitivity: 3.0</string>
+	<string name="noise">Noise sensitivity: 3</string>
+   
+</resources>

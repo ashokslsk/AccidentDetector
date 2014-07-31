@@ -1,0 +1,54 @@
+    
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0FFFF" >
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_above="@+id/chart_container"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+
+      <Button
+          android:id="@+id/button1"
+          style="?android:attr/buttonStyleSmall"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignBottom="@+id/map"
+          android:layout_alignParentLeft="true"
+          android:text="@string/Initsense" />
+
+      <LinearLayout
+          android:id="@+id/chart_container"
+          android:layout_width="160dp"
+          android:layout_height="180dp"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:background="#F0FFFF"
+          android:orientation="horizontal" >
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/LinearLayout01"
+          android:layout_width="160dp"
+          android:layout_height="180dp"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:orientation="horizontal" >
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Pending Audio Data goes here" />
+
+      </LinearLayout>
+
+</RelativeLayout>

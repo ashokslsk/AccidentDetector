@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0FFFF"
+    android:orientation="vertical" >
+	<TableRow 
+	    android:id="@+id/tableRow4" 
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content"
+	    android:background="#F0FFFF"
+	    android:paddingBottom="1dp"
+        android:paddingRight="1dp"> 
+	                       
+     <Button
+         android:id="@+id/Dash_board"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="110dp"
+         android:layout_height="match_parent"
+         android:background="@drawable/cell_shape"
+         android:paddingBottom="3dp"
+         android:paddingRight="3dp"
+         android:text="@string/Press_for_dash_board"
+         android:textColor="#000" />
+
+     <TextView
+         android:id="@+id/Battery_Status"
+         android:layout_width="130dp"
+         android:layout_height="match_parent"
+         android:background="@drawable/cell_shape"
+         android:textColor="#306EFF"
+         android:textSize="16sp" />
+
+     <Button
+         android:id="@+id/Quit_supravas"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@drawable/cell_shape"
+         android:text="@string/Quit_supravas"
+         android:textColor="#000" />
+     
+     </TableRow>
+	<TableRow 
+	    android:id="@+id/tableRow4" 
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content">
+    
+     </TableRow>
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="© Copyright belongs to Nitte Meenakshi Institute of Technology CSE dept."
+        android:textColor="#00ccff" />
+
+    <ImageView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableRow4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:src="@drawable/common_signin_btn_icon_dark" />
+    
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="299dp"
+            android:layout_above="@+id/TextView02"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/welcome" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                
+					<blink
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content">
+                
+                <TextView
+                    android:id="@+id/filler"
+                    android:layout_width="320dp"
+                    android:layout_height="41dp"
+                    android:background="@drawable/cell_shape"
+                    android:text="        ----Happy And Safe drive-----      "
+                    android:textColor="#306EFF"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+                </blink>
+                 <TextView
+        		android:id="@+id/from_profile_user_name"
+       	 		android:layout_width="wrap_content"
+       		    android:layout_height="wrap_content"
+        		android:layout_margin="10dp"
+       			android:text="Username"
+      		    android:textAppearance="?android:attr/textAppearanceMedium" />
+					
+            </LinearLayout>
+       
+            
+        </ScrollView>
+
+  
+
+</RelativeLayout>

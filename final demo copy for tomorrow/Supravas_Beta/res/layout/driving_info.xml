@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0FFFF"
+    android:orientation="vertical" >
+	<TableRow 
+	    android:id="@+id/tableRow4" 
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content"
+	    android:background="#F0FFFF"
+	    android:paddingBottom="1dp"
+        android:paddingRight="1dp"> 
+	                       
+     <Button
+         android:id="@+id/Dash_board"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="110dp"
+         android:layout_height="match_parent"
+         android:background="@drawable/cell_shape"
+         android:paddingBottom="3dp"
+         android:paddingRight="3dp"
+         android:text="@string/Press_for_dash_board"
+         android:textColor="#000" />
+
+     <TextView
+         android:id="@+id/Battery_Status"
+         android:layout_width="130dp"
+         android:layout_height="match_parent"
+         android:background="@drawable/cell_shape"
+         android:textColor="#306EFF"
+         android:textSize="16sp" />
+
+     <Button
+         android:id="@+id/Quit_supravas"
+         style="?android:attr/buttonStyleSmall"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@drawable/cell_shape"
+         android:text="@string/Quit_supravas"
+         android:textColor="#000" />
+     
+     </TableRow>
+	<TableRow 
+	    android:id="@+id/tableRow4" 
+	    android:layout_width="match_parent" 
+	    android:layout_height="wrap_content">
+    
+     </TableRow>
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="© Copyright belongs to Nitte Meenakshi Institute of Technology CSE dept."
+        android:textColor="#00ccff" />
+
+    <ImageView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableRow4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:src="@drawable/common_signin_btn_icon_dark" />
+    
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="299dp"
+            android:layout_above="@+id/TextView02"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/welcome" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                
+					<blink
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content">
+                
+                <TextView
+                    android:id="@+id/filler"
+                    android:layout_width="320dp"
+                    android:layout_height="41dp"
+                    android:background="@drawable/cell_shape"
+                    android:text="        ----Happy And Safe drive-----      "
+                    android:textColor="#306EFF"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+                </blink>
+                
+                 <TextView
+        		android:id="@+id/from_profile_user_name"
+       	 		android:layout_width="wrap_content"
+       		    android:layout_height="wrap_content"
+        		android:layout_margin="10dp"
+        		 android:textColor="#306EFF"
+       			android:text="Username"
+      		    android:textAppearance="?android:attr/textAppearanceMedium" />
+                 
+                 <TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+        			 android:layout_height="wrap_content"
+       				 android:text="1.Motorcycle safety concerns many aspects of vehicle and equipment design as well as operator skill and training that are unique to motorcycle riding. 2. Motorcyclists are 35 times more likely to experience a deadly accident on the road than those in passenger cars.
+In 2006, 88,000 motorcyclists were injured in highway accidents alone.
+In 2006, 4,810 motorcyclists were killed in road accidents.
+11 percent of all roadway accidents that occur in the United States involve motorcycles.
+Head injury is the leading cause of death in motorcycle crashes.
+A motorcyclist not wearing a helmet is 40 percent more likely to die of a head injury than one who wears a helmet.
+A motorcyclist not wearing a helmet is 15 percent more likely to suffer a nonfatal injury than one who wears a helmet.
+It is estimated that helmets reduce the likelihood of a crash fatality by 37 percent.
+In 2007, a total of 7.1 million motorcycles were registered in the U.S.
+In 2005, the motorcycle fatality rate was 73 per 100,000 registered motorcycles; meanwhile, the passenger vehicle fatality rate in the same year was 14 per 100,000 registrations.
+Motorcycle use is growing disproportionately to fatality growth.  For instance, in 1997 there were 3,826,373 motorcycles registered in the U.S. and 2,116 motorcycle fatalities.  In 2005, there were 6,227,146 motorcycles registered in the U.S. and 4,810 motorcycle fatalities.  So, between 1997 and 2005, registrations grew 63 percent while fatalities more than doubled.
+       				 ">
+       		    
+       		</TextView>
+       		 <TextView
+        		android:id="@+id/introduce_supravas"
+       	 		android:layout_width="wrap_content"
+       		    android:layout_height="wrap_content"
+        		android:layout_margin="10dp"
+        		 android:textColor="#306EFF"
+       			android:text=" INTRODUCING 'SUPRAVAS' As A Solution for this Problem. "
+      		    android:textAppearance="?android:attr/textAppearanceMedium" />
+					
+            </LinearLayout>
+       		
+            
+        </ScrollView>
+
+  
+
+</RelativeLayout>
